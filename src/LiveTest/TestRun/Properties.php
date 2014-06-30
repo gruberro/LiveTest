@@ -184,7 +184,7 @@ class Properties
 
     $testSuiteConfig = new TestSuite();
     $testSuiteConfig->setBaseDir(dirname($filename));
-    $testSuiteConfig->setDefaultDomain($defaultUri);
+//    $testSuiteConfig->setDefaultDomain($defaultUri);
 
     $parser = new Parser('LiveTest\\Config\\Tags\\TestSuite\\');
     try
