@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(E_ERROR | E_PARSE);
+
 include_once __DIR__.'/lib/Symfony/Component/ClassLoader/UniversalClassLoader.php';
 
 $classLoader = new \Symfony\Component\ClassLoader\UniversalClassLoader();
